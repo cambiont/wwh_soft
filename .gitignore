@@ -1,0 +1,66 @@
+############################################
+# macOS
+############################################
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+############################################
+# VS Code
+############################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+############################################
+# Xcode
+############################################
+# User-specific settings
+xcuserdata/
+*.xcuserstate
+
+# Build products
+DerivedData/
+build/
+
+# Xcode workspace user data
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+############################################
+# Hugo
+############################################
+# Generated site output
+public/
+
+# Hugo build lock
+.hugo_build.lock
+
+# Hugo cache (newer versions)
+resources/_gen/
+
+############################################
+# Logs & temp
+############################################
+*.log
+*.tmp
+*.swp
+*.swo
+
+############################################
+# Misc
+############################################
+.env
+.env.*
+
